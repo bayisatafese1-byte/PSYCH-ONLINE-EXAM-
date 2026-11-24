@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A challenging 40-question General Psychology Chapter One practice exam.">
+  <title>General Psychology | Chapter One Exam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">GENERAL PSYCHOLOGY</p>
+      <h1>Chapter One: Essence of Psychology</h1>
+      <p>40 challenging multiple-choice questions</p>
+      <div class="hero-meta">
+        <span>40 Questions</span>
+        <span>One Correct Answer</span>
+        <span>Instant Feedback</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="instructions card">
+      <h2>Exam Instructions</h2>
+      <ul>
+        <li>Read every question carefully before choosing an answer.</li>
+        <li>Select only one answer for each question.</li>
+        <li>Click <strong>Submit Exam</strong> when you finish.</li>
+        <li>Your score, correct answers, and explanations will appear after submission.</li>
+        <li>You can review your answers and retake the exam.</li>
+      </ul>
+      <div class="exam-info">
+        <span><strong>Subject:</strong> General Psychology</span>
+        <span><strong>Chapter:</strong> One – Essence of Psychology</span>
+        <span><strong>Total:</strong> 40 marks</span>
+      </div>
+    </section>
+
+    <section class="progress-card card">
+      <div class="progress-top">
+        <strong>Your Progress</strong>
+        <span id="progressText">0 / 40 answered</span>
+      </div>
+      <div class="progress-track">
+        <div id="progressBar"></div>
+      </div>
+    </section>
+
+    <form id="quizForm">
+      <div id="questions"></div>
+
+      <div class="submit-area card">
+        <p id="completionMessage">Answer all questions, then submit your exam.</p>
+        <button type="submit" class="primary-btn">Submit Exam</button>
+        <button type="button" id="resetBtn" class="secondary-btn">Reset Exam</button>
+      </div>
+    </form>
+
+    <section id="results" class="results card" hidden>
+      <h2>Exam Results</h2>
+      <div class="score-circle">
+        <span id="scorePercent">0%</span>
+        <small>Your Score</small>
+      </div>
+      <h3 id="resultMessage"></h3>
+      <p id="scoreDetails"></p>
+      <div class="result-actions">
+        <button type="button" id="reviewBtn" class="primary-btn">Review Answers</button>
+        <button type="button" id="retryBtn" class="secondary-btn">Try Again</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <h3>GENERAL PSYCHOLOGY</h3>
+      <p>Chapter One – Essence of Psychology</p>
+      <p>Practice Exam | 40 Multiple-Choice Questions</p>
+      <div class="footer-line"></div>
+      <p class="footer-note">
+        Prepared for learning and self-assessment. Based on the
+        General Psychology module, Chapter One.
+      </p>
+      <p class="copyright">&copy; 2026 Bayisa Tafese. All rights reserved.</p>
+      <p class="privacy">Privacy</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
